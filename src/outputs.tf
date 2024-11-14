@@ -1,4 +1,14 @@
-output "mock" {
-  description = "Mock output example for the Cloud Posse Terraform component template"
-  value       = local.enabled ? "hello ${basename(abspath(path.module))}" : ""
+output "registry_id" {
+  description = "Glue registry ID"
+  value       = module.glue_registry.id
+}
+
+output "registry_name" {
+  description = "Glue registry name"
+  value       = module.glue_registry.name
+}
+
+output "registry_arn" {
+  description = "Glue registry ARN"
+  value       = module.glue_registry.arn
 }
