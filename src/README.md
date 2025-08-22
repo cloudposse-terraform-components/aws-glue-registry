@@ -8,7 +8,6 @@ tags:
 # Component: `glue-registry`
 
 This component provisions Glue registries.
-
 ## Usage
 
 **Stack Level**: Regional
@@ -27,7 +26,10 @@ components:
 ```
 
 <!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- prettier-ignore-end -->
+
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -85,12 +87,17 @@ No resources.
 | <a name="output_registry_arn"></a> [registry\_arn](#output\_registry\_arn) | Glue registry ARN |
 | <a name="output_registry_id"></a> [registry\_id](#output\_registry\_id) | Glue registry ID |
 | <a name="output_registry_name"></a> [registry\_name](#output\_registry\_name) | Glue registry name |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/glue/registry) -
-  Cloud Posse's upstream component
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-glue-registry&utm_content=)
+
